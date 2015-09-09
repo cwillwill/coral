@@ -277,7 +277,7 @@ bool gameAction()
     Wire.requestFrom(MPU, 14, true);
     devicePoll();
     printState();
-    //Serial.println("FUCK");
+    //Serial.println("ERROR");
     if (stateChange == true)
     {
       if (true)
